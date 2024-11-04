@@ -1,0 +1,32 @@
+.formBox{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    row-gap: 10px;
+    font-family: monospace;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    background-color: #F0C1E1;
+}
+.formBox h4{
+    text-align: center;
+    font-size: 20px;
+}
+.formBox label{
+    font-size: 14px;
+}
+.formBox input , select{
+    border: none;
+    background-color: #fdf9d5;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.formBox button{
+    border: none;
+    background-color: #FDDBBB;
+    color: black;
+    font-family: monospace;
+    font-weight: 800;
+    border-radius: 5px;
+    padding: 10px 20px;
+}

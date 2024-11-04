@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Upadte Form</title>
+    <link rel="stylesheet" href="../style/formStyle.css">
+    <link rel="stylesheet" href="../style/navStyle.css">
+    <link rel="stylesheet" href="../style/allStyle.css">
+</head>
+<body style="margin: 0px; padding: 0px;">
+    <nav>
+        <div class="logo">
+            <a href="intro.php"><img src="../img/flower.png" alt="flower" width="30px">Pink Blossom Stock Management System</a>
+        </div>
+        <ul>
+            <li><a href="registerFlower.html">Register New Flower</a></li>
+            <li><a href="updateFlower.html">Update Flower Records</a></li>
+            <li><a href="Records.php">Flower Records</a></li>
+        </ul>
+        <div class="btn">
+            <a href="">Contact Us</a>
+        </div>
+    </nav>
+    <div class="divForm">
+        <form action="../php/update.php" class="formBox" method="POST">
+            <h4>Flower Update Form</h4>
+            <label for="">Flower Name: </label>
+            <input type="text" name="fName" id="fName" required>
+            <label for="">Flower Type: </label>
+            <select name="fType" id="fType" required>
+                <option value="Rose">Rose</option>
+                <option value="Tulip">Tulip</option>
+                <option value="Sunflower">Sunflower</option>
+                <option value="Lily">Lily</option>
+                <option value="Orchid">Orchid</option>
+            </select>
+            <label for="">Arrival Date: </label>
+            <input type="date" name="fDate" id="fDate" required>
+            <label for="">Flower Quantity: </label>
+            <input type="number" name="fQuantity" id="fQuantity" required>
+            <label for="">Flower Price: </label>
+            <input type="number" name="fPrice" id="fPrice" required>
+            <button type="submit" id="buttonsubmit">SUBMIT</button>
+        </form>
+    </div>
+</body>
+</html>

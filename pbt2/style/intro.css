@@ -1,0 +1,29 @@
+.divList{
+    padding: 10px;
+    font-family: monospace;
+}
+
+.tableAvailable{
+    background-color: #F0C1E1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tHeader{
+    font-size: 20px;
+}
+.available{
+    padding: 10px 20px;
+}
+.available th{
+    background-color: #FFF9BF;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.available td{
+    background-color: #FDDBBB;
+    padding: 10px 20px;
+    border-radius: 5px;
+}

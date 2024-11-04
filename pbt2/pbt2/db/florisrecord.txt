@@ -1,0 +1,6 @@
+Mister Lincoln Rose,Rose,2024-11-04,40,2.00
+
+Queen of Night Tulip,Rose,2024-11-04,0,4.00
+Russian Mammoth Sunflower,Sunflower,2024-11-04,5,3.00
+Stargazer Lily,Lily,2024-11-04,20,6.00
+Phalaenopsis Orchid,Orchid,2024-11-04,14,4.00
